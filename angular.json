@@ -24,7 +24,12 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/data/flowchart-1.json",
+              "src/app/templates/action.html",
+              "src/app/templates/output.html",
+              "src/app/templates/question.html",
+              "src/app/templates/start.html"
             ],
             "styles": [
               "src/styles.scss"
@@ -89,7 +94,12 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/data/flowchart-1.json",
+              "src/app/templates/action.html",
+              "src/app/templates/output.html",
+              "src/app/templates/question.html",
+              "src/app/templates/start.html"
             ]
           }
         },

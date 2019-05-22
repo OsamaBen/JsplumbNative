@@ -1,0 +1,12 @@
+<div class="sidebar node-palette" jsplumb-drag-drop selector="div"
+     surfaceId="flowchartSurface"
+     [dataGenerator]="dataGenerator"
+     [onCanvasDrop]="onCanvasDrop"
+     [onEdgeDrop]="onEdgeDrop">
+  <div *ngFor="let nodeType of nodeTypes" class="sidebar-item" [attr.data-node-type]="nodeType.type" title="Drag to add new"
+       [attr.jtk-width]="nodeType.w" [attr.jtk-height]="nodeType.h" (click)="createStructure()">{{nodeType.label}}
+  </div>
+</div>
+<jsplumb-surface [surfaceId]="surfaceId" [toolkitId]="toolkitId" [view]="view" [renderParams]="renderParams"></jsplumb-surface>
+<jsplumb-miniview [surfaceId]="surfaceId"></jsplumb-miniview>
+<jsplumb-controls [surfaceId]="surfaceId"></jsplumb-controls>

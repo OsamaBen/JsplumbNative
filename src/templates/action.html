@@ -1,0 +1,15 @@
+<div [style.width]="obj.w + 'px'" [style.height]="obj.h +'px'" class="flowchart-object flowchart-action">
+    <div>
+        <div class="node-edit node-action" (click)="editNode()">
+            <i class="fa fa-pencil-square-o"></i>
+        </div>
+        <div class="node-delete node-action" (click)="removeNode()">
+            <i class="fa fa-times"></i>
+        </div>
+      <img  [style.width]="50+'%'" [attr.height]="60+'%'"  [src]="'assets/jsplumb/flowchart-builder/groupimages/algeba.png'" (click)="showDetails(obj)">
+      <div style="width: 15px;height: 15px;border-radius: 5px;background-color: #5184a0;position: relative;left: 85px;bottom: 5px;" class="outer">
+      </div>
+    </div>
+    <jtk-target port-type="target"></jtk-target>
+    <jtk-source port-type="source" filter=".outer"></jtk-source>
+</div>

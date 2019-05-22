@@ -22,7 +22,12 @@
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "jsplumbtoolkit": "file:/src/assets/jsplumb/jsplumbtoolkit.tgz",
+    "jsplumbtoolkit-angular": "file:/src/assets/jsplumb/jsplumbtoolkit-angular.tgz",
+    "jsplumbtoolkit-undo-redo": "file:/src/assets/jsplumb/jsplumbtoolkit-undo-redo.tgz",
+    "jsplumbtoolkit-drop": "file:/src/assets/jsplumb/jsplumbtoolkit-drop.tgz",
+    "jsplumbtoolkit-angular-drop": "file:/src/assets/jsplumb/jsplumbtoolkit-angular-drop.tgz"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",

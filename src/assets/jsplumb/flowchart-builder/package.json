@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "font-awesome": "^4.7.0",
+        "jsplumbtoolkit": "file:../../jsplumbtoolkit.tgz",
+        "jsplumbtoolkit-undo-redo": "file:../../jsplumbtoolkit-undo-redo.tgz",
+        "jsplumbtoolkit-drop": "file:../../jsplumbtoolkit-drop.tgz"
+    }
+}

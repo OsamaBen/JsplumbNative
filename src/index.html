@@ -7,8 +7,24 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
+<script type="jtk" class="dlg" id="dlgText" title="Enter Text">
+          <input type="text" size="50" jtk-focus jtk-att="text" value="${text}" jtk-commit="true"/>
+      </script>
+
+<script type="jtk" class="dlg" id="dlgConfirm" title="Please Confirm">
+            ${msg}?
+      </script>
+
+<script type="jtk" class="dlg" id="dlgMessage" title="Message" cancel="false">
+          ${msg}
+      </script>
+
+<div class="jtk-demo-main" id="jtk-demo-flowchart">
   <app-root></app-root>
+</div>
+
 </body>
 </html>
